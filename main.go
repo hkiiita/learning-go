@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "learningGo/contexts"
 
 func main() {
-	fmt.Println("LODA")
+	contexts.LearnContexts()
 }
