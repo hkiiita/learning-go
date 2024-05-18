@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"learning-go/async"
+)
 
 func main()  {
-	fmt.Printf("Hello World !")
+	async.Execute()
 }
